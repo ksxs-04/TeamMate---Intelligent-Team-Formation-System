@@ -1,0 +1,37 @@
+# Create proper .gitignore
+@"
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+### Java ###
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+### Maven ###
+target/
+
+### Gradle ###
+.gradle/
+build/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Project Files ###
+# Exclude the parent folder's project files
+../.idea/
+../*.iml
+"@ | Out-File -FilePath .\.gitignore -Encoding UTF8
