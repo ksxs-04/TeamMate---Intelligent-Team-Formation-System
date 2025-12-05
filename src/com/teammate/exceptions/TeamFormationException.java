@@ -5,4 +5,8 @@ public class TeamFormationException extends Exception {
         super(message);
     }
 
+    public TeamFormationException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
 }

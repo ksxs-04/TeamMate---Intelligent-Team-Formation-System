@@ -47,4 +47,6 @@ public class FileHandlerTest {
         fh.saveParticipant(p, "test_save.csv");
         new File("test_save.csv").delete();
     }
+
+
 }
